@@ -1,0 +1,45 @@
+%ul.pf__nav
+  %li.pf__nav__works
+    = link_to work_path, class: "pf__nav__works__text" do
+      %i.fas.fa-desktop
+      WORKS
+%ul.pf__nav
+  %li.pf__nav__works
+    = link_to root_path, class: "pf__nav__works__text" do
+      %i.fas.fa-backward
+      TOP
+  %li.pf__nav__principle
+    = link_to contact_path, class: "pf__nav__principle__text" do
+      %i.far.fa-comments
+      PROFILE
+%ul.works
+  %li.works__text
+    free-market
+  %li.works__text
+    chat-space
+.pic
+  %ul.pic__slider
+    %li.pic__slider__works
+      =link_to detail_path, class: ".pic__slider__works__path" do
+        = image_tag 'free.png', height: '400px', width: '600px'
+    %li.pic__slider__works
+      =link_to detail2_path, class: ".pic__slider__works__path" do
+        = image_tag 'chat.png', height: '400px', width: '600px'
+.small
+  .small__pic
+    %ul.small__pic__choice
+      %li.small__pic__choice__list
+        =link_to detail_path, class: ".pic__slider__works__path" do
+          = image_tag 'free.png', height: '200px', width: '300px'
+          .title
+            free-market
+      %li.small__pic__choice__list
+        =link_to detail2_path, class: ".pic__slider__works__path" do
+          = image_tag 'chat.png', height: '200px', width: '300px'
+          .title
+            chat-space
+%ul.pf__nav
+  %li.pf__nav__works
+    = link_to work_path, class: "pf__nav__works__text" do
+      %i.fas.fa-desktop
+      WORKS

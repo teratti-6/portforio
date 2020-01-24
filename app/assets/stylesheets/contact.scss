@@ -1,0 +1,17 @@
+.contact {
+  &__wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    &__pic {
+      width: 500px;
+      height: 500px;
+    }
+    &__text {
+      &__top {
+        font-family: monospace;
+        margin-top: 10px;
+      }
+    }
+  }
+}

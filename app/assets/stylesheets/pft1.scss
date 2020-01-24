@@ -1,0 +1,96 @@
+.pf {
+  &__slider {
+    &__create {
+      &__img {
+        width: 100%;
+        height: 500px;
+      }
+    }
+    &__creativ {
+      &__img {
+        width: 100%;
+        height: 500px;
+      }
+    }
+    &__head {
+    text-align: center;
+    background-color: black;
+      &__text {
+        height: 260px;
+        background-color: black;
+        padding-top: 240px;
+        font-family: 'Varela Round', sans-serif;
+        color: #fff;
+        font-size: 33px;
+      }
+      &__subtitle {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 22px;
+      }
+    }
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: gold;
+    height: 65px;
+    &__about {
+      margin-top: 10px;
+      &__text {
+      text-decoration: none;
+      font-family: 'Varela Round', sans-serif;
+      color: darkgreen;
+      position: relative;
+      font-size: 35px;
+      }
+    }
+    &__works {
+      margin-top: 10px;
+      &__text {
+      text-decoration: none;
+      font-family: 'Varela Round', sans-serif;
+      color: brown;
+      font-size: 35px;
+
+      }
+    }
+    &__principle {
+      margin-top: 10px;
+      &__text {
+      text-decoration: none;
+      font-family: 'Varela Round', sans-serif;
+      color: chocolate;
+      font-size: 35px;
+      }
+    }
+  }
+  &__body {
+    text-align: center;
+    &__text1 {
+      height: 225px;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 160px;
+      color: #fff;
+      background-color: black;
+      font-family: monospace;
+    }
+    &__text2 {
+      height: 225px;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 160px;
+      color: red;
+      font-family: monospace;
+
+    }
+    &__text3 {
+      height: 225px;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 160px;
+      color: gold;
+      font-family: monospace;
+      background-color: rgb(30, 80, 87);
+      color: rgb(247, 251, 10);
+    }
+  }
+}
+
