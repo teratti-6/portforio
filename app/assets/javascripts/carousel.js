@@ -1,13 +1,13 @@
 $(document).on('turbolinks:load', function(){
-  $('.pf__slider').slick({
-    autoplay:true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    arrows:false,
-    pauseOnHover: false
-  });
+  // $('.pf__slider').slick({
+  //   autoplay:true,
+  //   infinite: true,
+  //   speed: 500,
+  //   fade: true,
+  //   cssEase: 'linear',
+  //   arrows:false,
+  //   pauseOnHover: false
+  // });
   $('.pf__body').slick({
     autoplay:true,
     infinite: true,
@@ -15,7 +15,7 @@ $(document).on('turbolinks:load', function(){
     fade: true,
     cssEase: 'linear',
     arrows:false,
-    asNavFor:'.pf__slider',
+    // asNavFor:'.pf__slider',
     pauseOnHover: false
   });
   $('.about__slider').slick({

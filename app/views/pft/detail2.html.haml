@@ -15,81 +15,114 @@
 .pic
   %ul.pic__slider
     %li.pic__slider__works
-      =link_to detail2_path, class: ".pic__slider__works__path" do
+      =link_to "http://3.113.38.81/", class: ".pic__slider__works__path" do
         = image_tag 'chat.png', height: '400px', width: '600px'
-      %button.pic__slider__works__text
-        サイトを見る
-%ul.pf__nav
-  %li.pf__nav__works
-    .pf__nav__works__text
+%ul.detail__nav
+  %li.detail__nav__works
+    .detail__nav__works__text
       %i.fas.fa-project-diagram
       プログラム（プロジェクト）名
 .answer
   .answer__text
+    %i.far.fa-arrow-alt-circle-right
     chat-space
-%ul.pf__nav
-  %li.pf__nav__works
-    = link_to detail2_path, class: "pf__nav__works__text" do
+%ul.detail__nav
+  %li.detail__nav__works
+    .detail__nav__works__text
       %i.fas.fa-list-ul
       プログラムの概要やビジュアル（UI）の紹介
 .answer
   .answer__text
-    ユーザー同士の会話 グループでの会話 メッセージ＋画像の送信 グループ編集機能 ユーザー検索機能
-%ul.pf__nav
-  %li.pf__nav__works
-    .pf__nav__works__text
+    %i.far.fa-arrow-alt-circle-right
+    メッセージ送信
+    %br
+    ・ユーザー同士の会話
+    %br
+    ・グループでの会話
+    %br
+    %i.far.fa-arrow-alt-circle-right
+    画像の送信
+    %br
+    %i.far.fa-arrow-alt-circle-right
+    グループ編集機能
+    %br
+    %i.far.fa-arrow-alt-circle-right
+    ユーザー検索機能
+%ul.detail__nav
+  %li.detail__nav__works
+    .detail__nav__works__text
       %i.fas.fa-user-alt
       クライアント名
 .answer
   .answer__text
+    %i.far.fa-arrow-alt-circle-right
     なし
-%ul.pf__nav
-  %li.pf__nav__works
-    .pf__nav__works__text
+%ul.detail__nav
+  %li.detail__nav__works
+    .detail__nav__works__text
       %i.fab.fa-product-hunt
       製作時期と製作期間
 .answer
   .answer__text
+    %i.far.fa-arrow-alt-circle-right
     2019/11/6 ~ 2019/11/18
-%ul.pf__nav
-  %li.pf__nav__works
-    .pf__nav__works__text
+%ul.detail__nav
+  %li.detail__nav__works
+    .detail__nav__works__text
       %i.fas.fa-bullseye
       プログラムの目的
 .answer
   .answer__text
+    %i.far.fa-arrow-alt-circle-right
     DB設計・フロントエンド・バックエンド・WEBデザインの知識を深めるため
-%ul.pf__nav
-  %li.pf__nav__works
-    .pf__nav__works__text
+%ul.detail__nav
+  %li.detail__nav__works
+    .detail__nav__works__text
       %i.fas.fa-cube
       プログラムのコンセプト
 .answer
   .answer__text
+    %i.far.fa-arrow-alt-circle-right
     なし
-%ul.pf__nav
-  %li.pf__nav__works
-    .pf__nav__works__text
+%ul.detail__nav
+  %li.detail__nav__works
+    .detail__nav__works__text
       %i.far.fa-comment-dots
       クライアントの要求事項や設計仕様
 .answer
   .answer__text
-    ユーザー同士の会話 グループでの会話 メッセージ＋画像の送信 グループ編集機能 ユーザー検索機能の実装
-%ul.pf__nav
-  %li.pf__nav__works
-    .pf__nav__works__text
+    %i.far.fa-arrow-alt-circle-right
+    メッセージ送信
+    %br
+    ・ユーザー同士の会話
+    %br
+    ・グループでの会話
+    %br
+    %i.far.fa-arrow-alt-circle-right
+    画像の送信
+    %br
+    %i.far.fa-arrow-alt-circle-right
+    グループ編集機能
+    %br
+    %i.far.fa-arrow-alt-circle-right
+    ユーザー検索機能
+%ul.detail__nav
+  %li.detail__nav__works
+    .detail__nav__works__text
       %i.fab.fa-github
       使用言語や仕様ソフト、開発環境の紹介
 .answer
   .answer__text
-    Ruby Rails haml scss js jquery ajax json jbuilder mysql aws
-%ul.pf__nav
-  %li.pf__nav__works
-    .pf__nav__works__text
+    %i.far.fa-arrow-alt-circle-right
+    Ruby/ Rails/ haml/ scss/ js/ jquery/ ajax/ json/ jbuilder/ mysql/ aws
+%ul.detail__nav
+  %li.detail__nav__works
+    .detail__nav__works__text
       %i.fas.fa-arrows-alt
       チームで作成した場合は自分の担当箇所やポジションの紹介
 .answer
   .answer__text
+    %i.far.fa-arrow-alt-circle-right
     個人開発のため全て
 .listing-wrap
   = link_to "http://52.68.71.170/", class: "listing-wrap__link" do
@@ -100,6 +133,6 @@
         %i.fas.fa-seedling
 %ul.pf__nav
   %li.pf__nav__works
-    = link_to detail2_path, class: "pf__nav__works__text" do
+    = link_to "http://3.113.38.81/", class: "pf__nav__works__text" do
       %i.fas.fa-desktop
       DETAIL

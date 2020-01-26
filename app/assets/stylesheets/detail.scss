@@ -50,11 +50,28 @@
   text-decoration: none;
 }
 .answer {
-  background-color: rgb(228, 227, 227);
-  height: 100px;
-  line-height: 95px;
+  line-height: 40px;
   &__text {
-    font-size: 30px;
-    text-align: center;
+    font-size: 15px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #e4e3e3;
+    font-family: monospace;
+  }
+}
+.detail {
+  &__nav {
+    width: 75%;
+    margin: 0 auto;
+    background-color: gold;
+    height: 36px;
+    &__works {
+      margin-top: 10px;
+      &__text {
+        font-family: 'Varela Round', sans-serif;
+        color: brown;
+        font-size: 20px;
+      }
+    }
   }
 }
